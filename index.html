@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeatherWear - Smart Clothing Assistant</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="weather-app">
+  <div class="app-header">
+    <h1>🌤️ WeatherWear</h1>
+    <div class="sub">Live weather + smart clothing recommendations</div>
+  </div>
+
+  <div class="search-section">
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Enter city name" value="London">
+      <button id="searchBtn">🔍 Get Weather & Style</button>
+    </div>
+    <div id="statusMsg" class="status-message">✨ Ready — search any city</div>
+  </div>
+
+  <div class="weather-info" id="weatherPanel"></div>
+  <div class="footer-note">
+    🌍 Real-time weather data • Clothing tips based on temperature & conditions
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
